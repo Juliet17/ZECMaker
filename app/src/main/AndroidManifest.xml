@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.shinystar91.ZECMaker">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_zec"
+        android:label="ZEC Maker"
+        android:roundIcon="@mipmap/ic_zec"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+    <meta-data android:name="com.google.android.gms.version"
+        android:value="@integer/google_play_services_version"/>
+        <activity
+            android:name="com.shinystar91.ZECMaker.MainActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible|adjustPan"/>
+        <activity
+            android:name="com.shinystar91.ZECMaker.MainScreen"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.shinystar91.ZECMaker.CheckBalanceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shinystar91.ZECMaker.YourRate"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shinystar91.ZECMaker.ExRate"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shinystar91.ZECMaker.SettingsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shinystar91.ZECMaker.ShareActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.shinystar91.ZECMaker.WalletActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateVisible|adjustPan"/>
+        <activity android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+    </application>
+
+</manifest>

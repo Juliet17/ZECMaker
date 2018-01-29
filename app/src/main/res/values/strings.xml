@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">ZEC Maker</string>
+    <string name="Begin_with">Вперёд!</string>
+    <string name="Begin_without">Начать майнинг</string>
+    <string name="Check_Balance">Проверить баланс</string>
+    <string name="Mining">Начать майнинг</string>
+    <string name="Balance">Ваш баланс:</string>
+    <string name="Settings">Настройки</string>
+    <string name="Share">Поделиться</string>
+    <string name="SendPromo">Отправить промокод</string>
+    <string name="Back">Назад</string>
+    <string name="DescriptionTextShare">"Делитесь промокодом с дузьями и увеличивайте скорость майнинга с каждой активацией приложения. Приложение, активированное с вашим промокодом, получит на свой стартовый баланс 0,003 ZEC.     "</string>
+    <string name="YourPromo">Ваш промокод:</string>
+    <string name="Activated">Активированных приложений:</string>
+    <string name="Coeff">Коэффициент скорости:</string>
+    <string name="Stop">Стоп</string>
+    <string-array name="Language">
+        <item>Русский</item>
+        <item>English</item>
+    </string-array>
+    <string name="Save">Сохранить</string>
+    <string name="Your_Address">Ваш кошелёк ZEC</string>
+    <string name="Your_Money">Ваши средства будут автоматически зачислены указанный кошелёк, когда Ваш баланс достигнет 0.5 ZEC.</string>
+    <string name="Choose_Int_Lang">Выберите язык интерфейса</string>
+    <string name="Success">Успешно</string>
+    <string name="Fail">Неудача</string>
+    <string name="Wrong_Promo">Неверный промокод</string>
+    <string name="Text_to_Share">Используй этот промокод и начни майнить Zcash! Мой промокод:</string>
+    <string name="Exchange_Rates">Курсы валют</string>
+    <string name="Convert_Btn">Узнать!</string>
+    <string name="Other_Text">Сумма вашего баланса в основных мировых валютах: </string>
+    <string name="ExRate">Текущие данные</string>
+    <string name="Your_Rate">Ваш курс</string>
+    <string name="Menu">Меню</string>
+    <string name="No_Internet_Connection">Нет соединения с интернетом</string>
+    <string name="Alert_Title">Ошибка</string>
+    <string name="Try_Again_Btn">Повторить попытку</string>
+    <string name="LTC_Rate">ZEC курс</string>
+    <string name="Enter_Promo">Введите промокод и получите 0.003 ZEC на свой счёт</string>
+    <string name="Have_no_promo">Нет промокода?</string>
+    <string name="adUnitId" translatable="false">ca-app-pub-7985661347006943/8503528407</string>
+    <string name="app" translatable="false">ca-app-pub-7985661347006943~4755855081</string>
+    <string name="interstitial" translatable="false">ca-app-pub-7985661347006943/9625038389</string>
+
+    <string name="settings"></string>
+    <string name="shareIcon"></string>
+    <string name="wallet"></string>
+</resources>

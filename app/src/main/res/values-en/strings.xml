@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ZEC Maker</string>
+    <string name="Begin_with">Go!</string>
+    <string name="Begin_without">Begin mining</string>
+    <string name="Check_Balance">Check balance</string>
+    <string name="Mining">Begin mining</string>
+    <string name="Balance">Your balance:</string>
+    <string name="Settings">Settings</string>
+    <string name="Share">Share</string>
+    <string name="SendPromo">Send promo code</string>
+    <string name="Back">Back</string>
+    <string name="DescriptionTextShare">Share the promotional code with your friends and increase the speed of mining with each activation of the application. The application activated with your promotional code will receive on your starting balance 0.003 ZEC.</string>
+    <string name="YourPromo">Your promo code:</string>
+    <string name="Activated">Activated applications:</string>
+    <string name="Coeff">Rate factor:</string>
+    <string name="Stop">Stop</string>
+    <string-array name="Language">
+        <item>Русский</item>
+        <item>English</item>
+    </string-array>
+    <string name="Save">Save</string>
+    <string name="Your_Address">Your ZEC Wallet</string>
+    <string name="Your_Money">Your funds will automatically be credited to the above wallet when your balance reaches 0.5 ZEC.</string>
+    <string name="Choose_Int_Lang">Select the interface language</string>
+    <string name="Success">Success</string>
+    <string name="Fail">Fail</string>
+    <string name="ExRate">Current data</string>
+    <string name="Wrong_Promo">Wrong promo code</string>
+    <string name="Text_to_Share">Use this promo code and start mining Zcash! My promo code:</string>
+    <string name="Exchange_Rates">Exchange Rates</string>
+    <string name="Convert_Btn">Convert now</string>
+    <string name="Other_Text">The amount of your balance in the world\'s major currencies</string>
+    <string name="Your_Rate">Your rate</string>
+    <string name="Menu">Menu</string>
+</resources>

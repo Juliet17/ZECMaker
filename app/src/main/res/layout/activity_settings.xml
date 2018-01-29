@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context="com.shinystar91.ZECMaker.SettingsActivity">
+
+  <TextView
+     android:id="@+id/InterfaceLang"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="158dp"
+     android:gravity="center"
+     android:text="@string/Choose_Int_Lang"
+     android:textColor="@color/colorPrimaryDark"
+     android:textSize="25sp"
+     android:textStyle="bold"
+      android:typeface="sans"
+     app:layout_constraintLeft_toLeftOf="parent"
+     app:layout_constraintRight_toRightOf="parent"
+     app:layout_constraintTop_toTopOf="parent" />
+     <!--app:layout_constraintTop_toBottomOf="@id/SetMes"-->
+
+
+ <Spinner
+     android:id="@+id/Language"
+     android:layout_width="150dp"
+     android:layout_height="40dp"
+     android:layout_marginTop="16dp"
+     android:background="@drawable/buttonshape3"
+     android:entries="@array/Language"
+     android:paddingBottom="2dp"
+     android:paddingStart="23dp"
+     app:layout_constraintHorizontal_bias="0.544"
+     app:layout_constraintLeft_toLeftOf="parent"
+     app:layout_constraintRight_toRightOf="parent"
+     app:layout_constraintTop_toBottomOf="@id/InterfaceLang">
+
+ </Spinner>
+
+ <ImageView
+     android:id="@+id/imageFlag"
+     android:layout_width="50dp"
+     android:layout_height="40dp"
+     android:layout_marginEnd="8dp"
+     android:layout_marginTop="208dp"
+     android:src="@drawable/russia"
+     app:layout_constraintEnd_toStartOf="@+id/Language"
+     app:layout_constraintTop_toTopOf="parent" />
+
+
+
+ <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+     android:id="@+id/AdSettings"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     ads:adSize="SMART_BANNER"
+     ads:adUnitId="@string/adUnitId"
+     app:layout_constraintBottom_toTopOf="parent"
+     app:layout_constraintLeft_toLeftOf="parent"
+     app:layout_constraintRight_toRightOf="parent" />
+
+ <android.support.constraint.Guideline
+     android:id="@+id/guideline6"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:orientation="horizontal"
+     app:layout_constraintGuide_begin="16dp" />
+
+ <android.support.constraint.Guideline
+     android:id="@+id/guideline7"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:orientation="vertical"
+     app:layout_constraintGuide_begin="411dp" />
+
+</android.support.constraint.ConstraintLayout>
